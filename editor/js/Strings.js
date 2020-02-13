@@ -20,6 +20,8 @@ var Strings = function ( config ) {
 			'menubar/file/export/glb': 'Export GLB',
 			'menubar/file/export/gltf': 'Export GLTF',
 			'menubar/file/export/obj': 'Export OBJ',
+			'menubar/file/export/ply': 'Export PLY',
+			'menubar/file/export/ply_binary': 'Export PLY (Binary)',
 			'menubar/file/export/stl': 'Export STL',
 			'menubar/file/export/stl_binary': 'Export STL (Binary)',
 			'menubar/file/publish': 'Publish',
@@ -285,7 +287,12 @@ var Strings = function ( config ) {
 			'sidebar/project/renderer': 'Renderer',
 			'sidebar/project/antialias': 'antialias',
 			'sidebar/project/shadows': 'shadows',
+			'sidebar/project/toneMapping': 'Tone Mapping',
+			'sidebar/project/toneMappingType': 'Type',
+			'sidebar/project/toneMappingExposure': 'Exposure',
+			'sidebar/project/toneMappingWhitePoint': 'White Point',
 			'sidebar/project/materials': 'Materials',
+			'sidebar/project/Assign': 'Assign',
 
 			'sidebar/settings': 'Settings',
 			'sidebar/settings/language': 'Language',
@@ -308,7 +315,8 @@ var Strings = function ( config ) {
 
 			'viewport/info/objects': 'Objects',
 			'viewport/info/vertices': 'Vertices',
-			'viewport/info/triangles': 'Triangles'
+			'viewport/info/triangles': 'Triangles',
+			'viewport/info/frametime': 'Frametime'
 
 		},
 
@@ -324,6 +332,8 @@ var Strings = function ( config ) {
 			'menubar/file/export/glb': '导出GLB',
 			'menubar/file/export/gltf': '导出GLTF',
 			'menubar/file/export/obj': '导出OBJ',
+			'menubar/file/export/ply': '导出PLY',
+			'menubar/file/export/ply_binary': '导出PLY(二进制)',
 			'menubar/file/export/stl': '导出STL',
 			'menubar/file/export/stl_binary': '导出STL(二进制)',
 			'menubar/file/publish': '发布',
@@ -563,7 +573,12 @@ var Strings = function ( config ) {
 			'sidebar/project/renderer': '渲染器',
 			'sidebar/project/antialias': '抗锯齿',
 			'sidebar/project/shadows': '阴影',
-			'sidebar/project/materials': 'Materials',
+			'sidebar/project/toneMapping': 'Tone Mapping',
+			'sidebar/project/toneMappingType': 'Type',
+			'sidebar/project/toneMappingExposure': 'Exposure',
+			'sidebar/project/toneMappingWhitePoint': 'White Point',
+			'sidebar/project/materials': '材质',
+			'sidebar/project/Assign': '应用',
 
 			'sidebar/settings': '设置',
 			'sidebar/settings/language': '语言',
@@ -586,7 +601,8 @@ var Strings = function ( config ) {
 
 			'viewport/info/objects': '物体',
 			'viewport/info/vertices': '顶点',
-			'viewport/info/triangles': '三角形'
+			'viewport/info/triangles': '三角形',
+			'viewport/info/frametime': 'Frametime'
 
 		}
 
@@ -603,3 +619,5 @@ var Strings = function ( config ) {
 	};
 
 };
+
+export { Strings };
